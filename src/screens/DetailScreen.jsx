@@ -18,7 +18,7 @@ export default function DetailScreen() {
           ランニング 今日は10km走った。 とても疲れた
         </Text>
       </ScrollView>
-      <CircleButton style={{ top: 160, bottom: "auto" }}>＋</CircleButton>
+      <CircleButton style={{ top: 160, bottom: "auto" }} name="edit-2" />
     </View>
   );
 }
