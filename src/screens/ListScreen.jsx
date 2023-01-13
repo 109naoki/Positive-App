@@ -15,7 +15,7 @@ export default function ListScreen() {
       <List />
       {/*  */}
       {/* 新規作成ボタン */}
-      <CircleButton>＋</CircleButton>
+      <CircleButton name="plus" />
       {/*  */}
     </View>
   );
