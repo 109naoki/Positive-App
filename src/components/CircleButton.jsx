@@ -3,9 +3,10 @@ import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
 export default function CircleButton(props) {
-  const { children } = props;
+  const { children, style } = props;
   return (
-    <View style={styles.circleButton}>
+    // propsでstyleの値があれば更新される
+    <View style={[styles.circleButton, style]}>
       <Text style={styles.circleButtonLabel}>{children}</Text>
     </View>
   );
